@@ -1,0 +1,100 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@300&family=Ubuntu:ital@1&family=Varela+Round&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2{
+font-family: 'Roboto', sans-serif;
+}
+
+.whole-container {
+    display: flex;
+    height: 100vh;
+    background-color: hsl(215, 69%, 16%);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 550px;
+    border-radius: 6%;
+    background-color: rgb(13, 36, 69);
+    box-shadow: rgba(3, 2, 73, 0.25) 0px 54px 55px, rgba(3, 2, 73, 0.25) 0px -12px 30px, rgba(3, 2, 73, 0.25) 0px 4px 6px, rgba(3, 2, 73, 0.25) 0px 12px 13px, rgba(3, 2, 73, 0.25) 0px -3px 5px;
+}
+.img-equi {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#img-equi {
+     width:90%;
+     margin-top: 1rem;
+     border-radius: 4%;  
+}
+
+.content {
+    /* background-color: rgb(230, 253, 22); */
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 2rem;
+}
+
+#title {
+    color: azure;
+}
+
+
+li {
+    color: cornflowerblue;
+    list-style-type: none;
+}
+
+#days {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.days {
+    border-bottom: 1px  solid azure;
+    padding-bottom: 1rem;
+}
+
+.jules {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    color: cornflowerblue;
+    margin-top: 0.3rem;
+}
+
+#avatar {
+    width: 24px;
+    height: 28px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid azure;
+    border-radius: 100%;
+}
+
+#jules {
+    padding-left: 0.4rem;
+    color: azure;
+}
